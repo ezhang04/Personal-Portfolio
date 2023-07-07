@@ -207,7 +207,6 @@ nav ul li a:hover::after {
 }
 
 .resume-link {
-    margin-top: -5px;
     margin-left: 50vh;
     white-space: nowrap;
 }
