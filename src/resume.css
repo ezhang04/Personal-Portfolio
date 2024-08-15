@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/anime-ace');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    text-decoration-color: black;
+    font-family: 'Anime Ace', sans-serif;
+}
+.nav-img {
+    max-width: 5%;
+    max-height: 5%;
+    border-radius: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 2.5%;
+    padding: 0;
+    display: flex;
+}
+li {
+    display: inline-block;
+    padding: 5px;
+}
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.navbar a {
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+a img {
+    margin-top: -2.5em;
+    margin-left: 30%;
+    max-width: 37%;
+    height: auto;
+    display: block;
+}
